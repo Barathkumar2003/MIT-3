@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(./images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content{
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px; 
+}
+
+.user{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user h1{
+  font-size: 65px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user p{
+  color: white;
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.user-form{
+  flex: 1;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.try-btn{
+  color: white;
+  background-color: hsl(248, 32%, 49%);
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 7px  rgba(233, 233, 233, 0.259);
+  font-size: 15px;
+}
+
+.try-btn span{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.user-form input{
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 5px;
+  color: hsl(249, 10%, 26%) ;
+  font-weight: bold;
+}
+
+.user-form ::placeholder{
+  padding-left: 15px;
+  color: hsl(246, 25%, 77%);
+}
+
+.claim-btn{
+  font-size: 16px;
+  padding: 20px;
+  color: white;
+  background-color: hsl(154, 59%, 51%);
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px green;
+}
+
+.terms{
+  margin: 0;
+  color: hsl(249, 10%, 26%);
+  font-weight: lighter;
+  text-align: center;
+}
+
+.terms a{
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+  font-weight: bold;
+}
